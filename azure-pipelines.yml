@@ -1,3 +1,7 @@
+steps:
+- task: gittools.gitversion.gitversion-task.GitVersion@4
+  displayName: GitVersion
+  
 pool:
   vmImage: 'Ubuntu-16.04'
   demands:
